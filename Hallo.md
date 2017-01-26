@@ -17,4 +17,4 @@ Schematischer Aufbau:
 
 
 
-[schematischerAufbau]: (https://github.com/kirjam12/Diplomarbeit/blob/master/documentationData/readMeData/AufbauDiagramm.png "Aufbau des Projekts (schematisch)")
+[schematischerAufbau]: https://github.com/kirjam12/Diplomarbeit/blob/master/documentationData/readMeData/AufbauDiagramm.png "Aufbau des Projekts (schematisch)"
