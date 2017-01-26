@@ -9,4 +9,4 @@ In diesem Repository wird die Programmierung des Raspberry Pi’s bearbeitet.
 
 
 ## Schematic
-![alt text](https://github.com/kirjam12/Diplomarbeit/documentationData/readMeData/Aufbaudiagramm.png „Schematischer Aufbau des Systems“)
+![alt text](https://github.com/kirjam12/Diplomarbeit/tree/master/documentationData/readMeData/AufbauDiagramm.png „Schematischer Aufbau des Systems“)
