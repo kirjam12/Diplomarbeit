@@ -22,14 +22,14 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 * Android Smartphone 
 	* mindestens Android 4.4
 	* Nfc faähig (ISO 14443-4)
-* TRF7960 mit beschaltung  ([Datenblatt][datenblattTRF7960])
+* TRF7970a mit beschaltung  ([Datenblatt][datenblattTRF7960])
 * Raspberry Pi Zero
 * Servo
 * Spannungsverorgung
 
 
 ##Verdrahtung
-###TRF79 - Raspberry Pi  
+###TRF7970a - Raspberry Pi  
 | TRF7960| Pin Nr.|   | Raspberry Pi | Pin Nr.|   |Funktion
 | -------|:------:|--:| ------------:|-------:|--:|-----------:|
 | I / O_7| 24     |   | GPIO 12      |19      |   |MOSI
@@ -51,13 +51,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 
 [datenblattTRF7960]: (https://github.com/kirjam12/Diplomarbeit/blob/master/datasheets/TRF7960.pdf "Datenblatt am Git Server)
 
-ha
 
-
-1. der Günzel kann leider nicht kommen weil er krank ist
-2. wir überreichen dem Findenig das Geschenk
-3. der Günzel ist Nudelfett in einer Box vorm haus mit gutschein
-4. Findenig ist überrascht
 
 
 
