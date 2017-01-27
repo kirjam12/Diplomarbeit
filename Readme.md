@@ -21,8 +21,8 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 
 * Android Smartphone 
 	* mindestens Android 4.4
-	* Nfc faähig (ISO 14443-4)
-* TRF7970a mit beschaltung  ([Datenblatt][datenblattTRF7970a])
+	* Nfc fähig (ISO 14443-4)
+* TRF7970a mit beschaltung  ( [Datenblatt][datenblattTRF7970a] )
 * Raspberry Pi Zero
 * Servo
 * Spannungsverorgung
@@ -30,7 +30,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 
 ##Verdrahtung
 ###TRF7970a - Raspberry Pi  
-| TRF7960| Pin Nr.|   | Raspberry Pi | Pin Nr.|   |Funktion
+| TRF7970a| Pin Nr.|   | Raspberry Pi | Pin Nr.|   |Funktion
 | -------|:------:|--:| ------------:|-------:|--:|-----------:|
 | I / O_7| 24     |   | GPIO 12      |19      |   |MOSI
 | I / O_8| 23     |   | GPIO 13      |21      |   |MISO
@@ -49,9 +49,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 
 
 
-[datenblattTRF7960]: (https://github.com/kirjam12/Diplomarbeit/blob/master/datasheets/TRF7960.pdf "Datenblatt am Git Server)
-
-[datenblattTRF7970a]: (https://github.com/kirjam12/Diplomarbeit/blob/master/datasheets/trf7970a.pdf "Datenblatt am Git Server)
+[datenblattTRF7970a]: (http://www.ti.com/lit/ds/slos743k/slos743k.pdf "Datenblatt auf der Website von Texas Instruments)
 
 
 
