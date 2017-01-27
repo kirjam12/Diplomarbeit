@@ -14,7 +14,7 @@ Schematischer Aufbau:
 
 ![alt Image text][schematischerAufbau]
 
-Von einem Smartphone, oder einem NFC-Tag wird ein Sicherheitscode und ein Befehl über NFC and den TRF7960 gesendet.
+Von einem Smartphone, oder einem NFC-Tag wird ein Sicherheitscode und ein Befehl über NFC and den TRF7970a gesendet.
 Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei richtigem Code + Befehl ein Servolenkung im Türschloss ansteuert.
 
 ##Komponenten
@@ -22,7 +22,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 * Android Smartphone 
 	* mindestens Android 4.4
 	* Nfc fähig (ISO 14443-4)
-* TRF7970a mit beschaltung  ( [Datenblatt][datenblattTRF7970a] )
+* TRF7970a mit beschaltung ([Datenblatt][datenblattTRF7970a])
 * Raspberry Pi Zero
 * Servo
 * Spannungsverorgung
