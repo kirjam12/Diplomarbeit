@@ -22,7 +22,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 * Android Smartphone 
 	* mindestens Android 4.4
 	* Nfc faähig (ISO 14443-4)
-* TRF7970a mit beschaltung  ([Datenblatt][datenblattTRF7960])
+* TRF7970a mit beschaltung  ([Datenblatt][datenblattTRF7970a])
 * Raspberry Pi Zero
 * Servo
 * Spannungsverorgung
@@ -51,6 +51,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 
 [datenblattTRF7960]: (https://github.com/kirjam12/Diplomarbeit/blob/master/datasheets/TRF7960.pdf "Datenblatt am Git Server)
 
+[datenblattTRF7970a]: (https://github.com/kirjam12/Diplomarbeit/blob/master/datasheets/trf7970a.pdf "Datenblatt am Git Server)
 
 
 
