@@ -49,9 +49,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 
 
 
-[datenblattTRF7970a]: (http://www.ti.com/lit/ds/slos743k/slos743k.pdf "Datenblatt auf der Website von Texas Instruments)
-
-
+[datenblattTRF7970a]: http://www.ti.com/lit/ds/slos743k/slos743k.pdf "Datenblatt auf der Website von Texas Instruments"
 
 
 [schematischerAufbau]: https://github.com/kirjam12/Diplomarbeit/blob/master/documentationData/readMeData/AufbauDiagramm.png "Aufbau des Projekts (schematisch)"
