@@ -1,5 +1,5 @@
 #Diplomarbeit NFC-Türschloss  
----
+
 
 Dieses Projekt besteht aus drei großen Bereichen:  
 * Der Software für das **Android** Smartphone  
@@ -8,12 +8,11 @@ Dieses Projekt besteht aus drei großen Bereichen:
 
 In diesem Repository wird die Programmierung des Raspberry Pi’s bearbeitet.
 
-
 ## Schematic
 
 Schematischer Aufbau:
 
-![alt text][schematischerAufbau]
+![alt Image text][schematischerAufbau]
 
 Von einem Smartphone, oder einem NFC-Tag wird ein Sicherheitscode und ein Befehl über NFC and den TRF7960 gesendet.
 Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei richtigem Code + Befehl ein Servolenkung im Türschloss ansteuert.
@@ -23,7 +22,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 * Android Smartphone 
 	* mindestens Android 4.4
 	* Nfc faähig (ISO 14443-4)
-* TRF7960 mit beschaltung ([Datenblatt]<
+* TRF7960 mit beschaltung  ([Datenblatt][datenblattTRF7960])
 * Raspberry Pi Zero
 * Servo
 * Spannungsverorgung
@@ -50,8 +49,15 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 
 
 
+[datenblattTRF7960]: (https://github.com/kirjam12/Diplomarbeit/blob/master/datasheets/TRF7960.pdf "Datenblatt am Git Server)
+
+ha
 
 
+1. der Günzel kann leider nicht kommen weil er krank ist
+2. wir überreichen dem Findenig das Geschenk
+3. der Günzel ist Nudelfett in einer Box vorm haus mit gutschein
+4. Findenig ist überrascht
 
 
 
