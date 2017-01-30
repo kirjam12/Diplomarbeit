@@ -39,6 +39,7 @@ Dieser Code + Befehl wird über SPI an den Raspberry Pi übermittelt welcher bei
 | EN     | 28     |   | GPIO 8       |3       |   |Chip Enable
 | Vdd_x  | 32     |   | 5.0 VDC      |2       |   |Power
 | VSS    | 10     |   | Ground       |6       |   |Ground
+| IRQ    | 13     |   | GPIO 2       |???     |   |Interrupt request
 
 ###Raspberry Pi - Servo  
 | Raspberry Pi| Pin Nr.|   | Servo | Farbe|   |Funktion
