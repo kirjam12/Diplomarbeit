@@ -1,0 +1,14 @@
+[Unit]
+#Simple description
+Description= runs a Test Program
+[Service]
+#Command to be excecuted
+ExecStart= /usr/bin/java -jar /home/pi/Diplomarbeit/JavaApplication11/dist/Dipl$
+#skript does only one thing/ is not starting thins later
+Type=oneshot
+#user to opperate as
+User=root
+[Install]
+#when it should start
+WantedBy=multi-user.target
+
