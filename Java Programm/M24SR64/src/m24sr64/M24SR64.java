@@ -5,6 +5,8 @@
  */
 package m24sr64;
 
+import com.pi4j.wiringpi.I2C;
+import static com.pi4j.wiringpi.I2C.wiringPiI2CSetup;
 /**
  *
  * @author jakobkirchberger
@@ -15,14 +17,20 @@ public class M24SR64 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
-    public void i2c()
-    {
+        try {
+            
+        int fd = I2C.wiringPiI2CSetup(I2C.CHANNEL_0);
+        int data =I2C.wiringPiI2CReadReg16(fd,123);
+        System.out.println(data);
         
+        } catch (Exception e) {
+        }
+       
+      
+        }        
     }
     
+   
     
     
     
@@ -30,4 +38,4 @@ public class M24SR64 {
     
     
     
-}
+
